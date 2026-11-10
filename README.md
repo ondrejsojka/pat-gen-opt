@@ -147,17 +147,27 @@ The original software in this repository is available under the [MIT License](LI
 
 ## Citation
 
+Publication: <https://is.muni.cz/publication/2586799/?lang=en>
+
 If you use this software or the optimized patterns in your work, please cite:
 
 ```bibtex
-@inproceedings{sojka-sojka-2026-competing-patterns,
-  title     = {The Art of Hierarchical Competing Patterns:
-               {Gaussian} Process Optimization of Hyphenation},
-  author    = {Sojka, Ond\v{r}ej and Sojka, Petr},
-  booktitle = {Proceedings of the 2026 Conference on Empirical Methods
-               in Natural Language Processing (EMNLP)},
-  year      = {2026},
-  url       = {https://github.com/ondrejsojka/pat-gen-opt},
+@inproceedings{2586799,
+   author = {Sojka, Ondřej and Sojka, Petr},
+   address = {Budapest, Hungary},
+   booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2026},
+   doi = {https://doi.org/10.18653/2026.findings-emnlp.2346},
+   editor = {Hung-Yi Lee and Sunipa Dev and Jessy Li and Desmond Elliott},
+   keywords = {Gaussian process; optimization; hyphenation; competing patterns; pattern generation; segmentation},
+   howpublished = {tištěná verze "print"},
+   language = {eng},
+   location = {Budapest, Hungary},
+   isbn = {979-8-89176-462-0},
+   pages = {50440-50457},
+   publisher = {Association for Computational Linguistics},
+   title = {The Art of Hierarchical Competing Patterns: Gaussian Process Optimization of Hyphenation},
+   url = {https://arxiv.org/abs/2609.07638},
+   year = {2026}
 }
 ```
 
