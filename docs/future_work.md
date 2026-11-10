@@ -31,8 +31,7 @@ The hard constraint behind most of the deferrals: every character in a word list
 
 - `scripts.optimize` (in-sample, legacy), `scripts/run_all_optimizations.sh`, and `scripts.compare_hpo_methods` are candidates for deletion once no result directory or document depends on them.
 - `wikt_dump.zip` is served through Git LFS. A release asset would avoid LFS bandwidth accounting on a public repository.
-- `.gitignore` still lists `hyph_bench.egg-info/` alongside the general `*.egg-info/`; a local checkout may still sit in a directory named `hyph-bench`.
-- `CITATION.cff` and the BibTeX entry need the final EMNLP reference (pages, Anthology URL or DOI).
+- `.gitignore` still lists `hyph_bench.egg-info/` alongside the general `*.egg-info/`.
 
 ## Research directions
 

@@ -693,7 +693,7 @@ def fig_frontiers(cases: List[Case], out_dir: Path, stats: dict) -> None:
     log_ratio_axis(ax, "x", [1 / 20, 1 / 10, 1 / 5, 1 / 3, 1 / 2, 1.0])
     log_ratio_axis(ax, "y", [1.0, 2.0, 3.0, 5.0, 8.0, 12.0])
     ax.set_xlabel("trie size, relative to hand-tuned  ← smaller")
-    ax.set_ylabel("errors left, hand-tuned / this profile\n↑ fewer")
+    ax.set_ylabel("errors left, hand-tuned / this profile\n→ fewer")
     ax.annotate(
         "hand-tuned profile,\nall 17 datasets",
         xy=(1.0, 1.0),
@@ -1042,7 +1042,7 @@ def fig_multiples(cases: List[Case], out_dir: Path, stats: dict) -> None:
     log_ratio_axis(flat[0], "x", [1 / 20, 1 / 5, 1.0])
     log_ratio_axis(flat[0], "y", [1 / 3, 1.0, 3.0, 10.0])
     fig.supxlabel("trie size / hand-tuned  ← smaller", fontsize=8.2)
-    fig.supylabel("errors left, hand-tuned / this profile ↑ fewer", fontsize=8.2)
+    fig.supylabel("errors left, hand-tuned / this profile → fewer", fontsize=8.2)
     fig.tight_layout()
     save(fig, out_dir, "hero_g_multiples")
 
@@ -1119,7 +1119,7 @@ def fig_pr(cases: List[Case], out_dir: Path, stats: dict) -> None:
             zorder=4,
         )
     ax.set_xlabel("recall  → finds more of the legal break points")
-    ax.set_ylabel("precision ↑ inserts fewer wrong hyphens")
+    ax.set_ylabel("precision → inserts fewer wrong hyphens")
     ax.set_xlim(0.655, 1.035)
     ax.set_ylim(0.876, 1.006)
     ax.legend(
@@ -1192,7 +1192,7 @@ def fig_space(cases: List[Case], out_dir: Path, stats: dict) -> None:
     log_ratio_axis(ax, "x", [1 / 100, 1 / 20, 1 / 5, 1.0, 3.0])
     log_ratio_axis(ax, "y", [1 / 20, 1 / 5, 1.0, 5.0, 20.0])
     ax.set_xlabel("trie size / hand-tuned  ← smaller")
-    ax.set_ylabel("errors left, hand-tuned / this profile ↑ fewer")
+    ax.set_ylabel("errors left, hand-tuned / this profile → fewer")
     ax.text(
         0.0105,
         22.0,
