@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: "If you use this software or the optimized patterns in your work, please cite the paper below."
+title: "pat-gen-opt: Pattern Generation Optimization"
+authors:
+  - family-names: Sojka
+    given-names: Ondřej
+  - family-names: Sojka
+    given-names: Petr
+license: MIT
+repository-code: "https://github.com/ondrejsojka/pat-gen-opt"
+keywords:
+  - Gaussian process
+  - optimization
+  - hyphenation
+  - competing patterns
+  - pattern generation
+  - segmentation
+preferred-citation:
+  type: conference-paper
+  title: "The Art of Hierarchical Competing Patterns: Gaussian Process Optimization of Hyphenation"
+  authors:
+    - family-names: Sojka
+      given-names: Ondřej
+    - family-names: Sojka
+      given-names: Petr
+  editors:
+    - family-names: Lee
+      given-names: Hung-Yi
+    - family-names: Dev
+      given-names: Sunipa
+    - family-names: Li
+      given-names: Jessy
+    - family-names: Elliott
+      given-names: Desmond
+  collection-title: "Findings of the Association for Computational Linguistics: EMNLP 2026"
+  collection-type: proceedings
+  conference:
+    name: "EMNLP 2026"
+    city: Budapest
+    country: HU
+  publisher:
+    name: Association for Computational Linguistics
+  isbn: "979-8-89176-462-0"
+  doi: "10.18653/2026.findings-emnlp.2346"
+  start: 50440
+  end: 50457
+  year: 2026
+  url: "https://is.muni.cz/publication/2586799/?lang=en"
+  identifiers:
+    - type: url
+      value: "https://arxiv.org/abs/2609.07638"
+      description: arXiv preprint
